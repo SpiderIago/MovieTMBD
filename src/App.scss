@@ -1,0 +1,105 @@
+.App {
+	padding-bottom: 40px;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+	color: white !important;
+}
+
+.card-header {
+	border-bottom: unset !important;
+}
+
+.card-header img {
+	width: 100%;
+	display: block;
+}
+
+.card-header a {
+	margin-top: -20px;
+	position: absolute; bottom:25px;
+	color: red !important;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.card-body {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.card-body button {
+	margin-right: 5px;
+}
+
+.row-movie-list {
+	display: flex;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.dropdown-content-on {
+    width: 100%;
+	height: 350px;
+    background-color: #000;
+    min-width: 160px;
+    transform: translateY(10%);
+    transition: all 1s;
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	
+	.div-img{
+		opacity: .4;
+		width: 100%;
+	}
+
+	.text-div{
+		position: absolute;
+		top: 18px;
+      	left: 3px;
+		color: white;
+		padding: 30px;
+		opacity: unset;
+		font-size: 14px;
+		width: 50%;
+
+		.title{
+			font-size: 20px;
+		}
+
+		.infos{
+			margin-top: 40px;
+			display: grid;
+			grid-template-columns: auto auto auto;
+			column-gap: 5px;
+		}
+
+		.summary{
+			margin-top: 20px;
+		}
+	}
+
+	.div-video {
+		padding: 10px;
+	}
+
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.green{
+	color: green;
+}
+
+.mini{
+	font-size: 12px;
+}
+
